@@ -1,5 +1,10 @@
 // Operaciones Aritméticas 
-
+#include <iostream>
+#include <limits>
+#include <iomanip>
+#include <locale>
+using namespace std;
+ 
 // Enteros
 int a = 10;
 int b = 20;
