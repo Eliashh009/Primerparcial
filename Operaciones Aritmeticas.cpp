@@ -11,9 +11,9 @@ int b = 20;
 int c;
 
 //Flotantes
-flotador x = 15,5;
-flotación y = 5,2;
-flotador z;
+float x = 15,5;
+float y = 5,2;
+float z;
 
 // 1.Adición
 c = a + b; // 30
@@ -185,7 +185,7 @@ int x = 5, y = 0;
 cout << (x & & y) << endl;
 
 // 10. Operaciones lógicas con tipos de datos mixtos
-flotador m = 3,5, n = 0,0;
+float m = 3,5, n = 0,0;
 cout << (m || n) << endl;
 
 // 11. Expresiones complejas
@@ -230,7 +230,7 @@ cout << (bitwiseAnd & bitwiseOr) << endl;
 cout << (a & & b || !a & !b) << endl;
 
 cout << "¡Operaciones lógicas realizadas!" << endl;
-devuelve 0;
+return 0;
 
 
 //17/10/2024
