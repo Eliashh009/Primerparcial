@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <limits>
 #include <iomanip>
@@ -15,3 +16,22 @@ int main()
     }
     cout << endl;
     cout << "total: " << suma << endl;
+
+
+
+    int opcion1 = 0;
+
+    do
+    {
+        cout << "Menu Opciones" << endl;
+        cout << "1.- Ejecuta opcion 1 " << endl;
+        cout << "2.- Ejecuta opcion 2 " << endl;
+        cout << "3.- Ejecuta opcion 3 " << endl;
+        cout << "4.- Ejecuta opcion 4 " << endl;
+        cout << "5.- Ejecuta opcion 5 " << endl;
+        cout << "6.- Salir " << endl;
+        cin >> opcion1;
+
+    } while (opcion1 != 6);
+
+}
